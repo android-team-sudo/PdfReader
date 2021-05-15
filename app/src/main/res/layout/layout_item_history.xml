@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:padding="8dp"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -52,7 +52,7 @@
                 android:layout_weight="1"
                 android:paddingStart="8dp"
                 android:paddingEnd="2dp"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:paddingTop="8dp"
                 android:textSize="12sp" />
 
@@ -60,7 +60,7 @@
                 android:id="@+id/operationType"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:layout_weight="1"
                 android:padding="8dp" />
 

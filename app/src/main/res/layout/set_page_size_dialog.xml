@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/letter"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/legal"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/executive"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ledger"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tabloid"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/a0_to_a10"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/b0_to_b10"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:textSize="16sp" />
 
         </RadioGroup>
@@ -108,6 +108,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/set_as_default" />
 </LinearLayout>

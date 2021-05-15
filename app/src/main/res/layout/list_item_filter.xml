@@ -25,7 +25,8 @@
         android:layout_marginBottom="3dp"
         android:textAlignment="center"
         android:textSize="12sp"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
+        android:textColor="@color/black"
         tools:text="@string/Filter_name"/>
 
 </RelativeLayout>

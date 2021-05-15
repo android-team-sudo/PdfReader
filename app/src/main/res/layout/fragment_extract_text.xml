@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/select_pdf_file" />
 
         <com.dd.morphingbutton.MorphingButton
@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:padding="10dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/extract_text" />
 
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:layout_gravity="bottom"
         android:gravity="center_horizontal"
         android:padding="8dp"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:layout_marginBottom="40dp"
         android:text="@string/excel_tv_view_text"
         android:visibility="gone"/>

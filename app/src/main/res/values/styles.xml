@@ -68,6 +68,7 @@
 
     <style name="MorphingButton">
         <item name="android:textColor">@color/mb_white</item>
+        <item name="android:backgroundTint">@color/colorPrimaryDark</item>
     </style>
 
 </resources>

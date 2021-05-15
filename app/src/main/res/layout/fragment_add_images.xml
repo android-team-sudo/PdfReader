@@ -19,7 +19,7 @@
             android:maxWidth="30dp"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             style="@style/MorphingButton"
             android:text="@string/merge_file_select"
             app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:gravity="center_horizontal"
             android:text="@string/selected_images_text" />
 
@@ -44,7 +44,7 @@
             android:layout_marginTop="15dp"
             android:maxWidth="30dp"
             android:padding="3dip"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/create_pdf" />
 
         <com.dd.morphingbutton.MorphingButton
@@ -55,7 +55,7 @@
             android:layout_marginTop="15dp"
             android:maxWidth="30dp"
             android:padding="3dip"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             style="@style/MorphingButton"
             android:text="@string/add_images"
             app:layout_constraintStart_toStartOf="parent"

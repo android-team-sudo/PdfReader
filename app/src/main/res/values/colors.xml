@@ -9,7 +9,9 @@
     <color name="black">#000000</color>
     <color name="red">#FF0000</color>
     <color name="color_text">#B76565</color>
-    
+    <color name="color_red">#EF2423</color>
+    <color name="color_grey">#BDBDBD</color>
+
     <color name="colorBackground_black">#0A0808</color>
 
     <color name="windowBackground_light">#F4F4F6</color>

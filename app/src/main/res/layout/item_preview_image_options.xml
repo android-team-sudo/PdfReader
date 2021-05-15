@@ -4,24 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="5dp"
-    android:layout_marginEnd="15dp"
-    android:layout_marginStart="15dp"
-    android:layout_marginTop="5dp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_5sdp"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        app:cardCornerRadius="35dp">
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        app:cardCornerRadius="@dimen/_35sdp">
 
         <ImageView
             android:id="@+id/option_image"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:layout_gravity="center"
             android:contentDescription="@string/rearrange_images"
-            android:padding="10dp"
+            android:padding="@dimen/_10sdp"
             app:srcCompat="@drawable/ic_rearrange"
             app:tint="?attr/iconTintOnCard" />
 
@@ -29,14 +29,15 @@
 
     <TextView
         android:id="@+id/option_name"
-        android:layout_width="70dp"
+        android:layout_width="@dimen/_70sdp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="@dimen/_3sdp"
         android:gravity="center"
-        android:padding="2dp"
-        android:fontFamily="@font/sarabunregular"
+        android:padding="@dimen/_2sdp"
+        android:fontFamily="@font/font_calibri_regular"
+        android:textColor="@color/black"
         android:textAlignment="center"
-        android:textSize="12sp"
+        android:textSize="@dimen/_12ssp"
         tools:text="@string/rearrange_text" />
 
 </LinearLayout>

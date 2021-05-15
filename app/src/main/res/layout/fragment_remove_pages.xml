@@ -20,7 +20,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
             android:maxWidth="30dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             style="@style/MorphingButton"
             android:text="@string/merge_file_select"
             app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/compress_pdf_prompt" />
 
         <EditText
@@ -44,7 +44,7 @@
             android:maxLines="1"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:inputType="number"
             android:autofillHints="" />
 
@@ -66,7 +66,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
             android:text="@string/create_pdf"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             app:layout_constraintBottom_toTopOf="@id/recyclerView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/view_pdf"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
             android:visibility="gone"

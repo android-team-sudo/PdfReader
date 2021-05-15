@@ -19,7 +19,7 @@
         android:layout_gravity="bottom"
         android:gravity="center_horizontal"
         android:padding="8dp"
-        android:fontFamily="@font/sarabunbold"
+        android:fontFamily="@font/font_calibri_bold"
         android:text="@string/converting_file_message"
         android:textSize="18sp"
         android:textStyle="bold" />

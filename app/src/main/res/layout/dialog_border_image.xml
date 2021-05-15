@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/border_width_prompt"
         android:textSize="20sp" />
 
@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/compress_dialog_enter_prompt"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:textSize="20sp" />
 
     <CheckBox
@@ -27,7 +27,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/set_as_default" />
 
 </LinearLayout>

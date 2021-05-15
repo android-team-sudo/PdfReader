@@ -30,7 +30,7 @@
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"
                     android:padding="10dp"
-                    android:fontFamily="@font/sarabunregular"
+                    android:fontFamily="@font/font_calibri_regular"
                     android:text="@string/merge_files" />
 
                 <androidx.recyclerview.widget.RecyclerView
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="10dp"
-                    android:fontFamily="@font/sarabunregular"
+                    android:fontFamily="@font/font_calibri_regular"
                     android:text="@string/select_files" />
             </LinearLayout>
 
@@ -71,7 +71,7 @@
                     android:layout_gravity="center"
                     android:padding="@dimen/activity_horizontal_margin"
                     android:text="@string/more_options_text"
-                    android:fontFamily="@font/sarabunbold"
+                    android:fontFamily="@font/font_calibri_bold"
                     android:textAllCaps="false"
                     android:textSize="18sp"
                     android:textStyle="bold" />

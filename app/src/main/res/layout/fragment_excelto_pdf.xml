@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     style="@style/MorphingButton"
                     android:padding="10dp"
-                    android:fontFamily="@font/sarabunregular"
+                    android:fontFamily="@font/font_calibri_regular"
                     android:text="@string/select_excel_file" />
 
                 <com.dd.morphingbutton.MorphingButton
@@ -50,7 +50,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:padding="10dp"
-                    android:fontFamily="@font/sarabunregular"
+                    android:fontFamily="@font/font_calibri_regular"
                     android:text="@string/excel_to_pdf" />
             </LinearLayout>
 
@@ -74,7 +74,7 @@
                     android:padding="@dimen/activity_horizontal_margin"
                     android:text="@string/more_options_text"
                     android:textAllCaps="false"
-                    android:fontFamily="@font/sarabunregular"
+                    android:fontFamily="@font/font_calibri_regular"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
         android:layout_gravity="bottom"
         android:gravity="center_horizontal"
         android:padding="8dp"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/excel_tv_view_text"
         android:visibility="gone" />
 

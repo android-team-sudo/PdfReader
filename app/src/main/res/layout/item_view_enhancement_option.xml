@@ -37,6 +37,7 @@
                 android:gravity="center_horizontal"
                 android:breakStrategy="simple"
                 android:lines="2"
+                android:textColor="@color/black"
                 tools:text="@string/password_protect_pdf_text"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>

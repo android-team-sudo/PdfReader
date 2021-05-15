@@ -13,7 +13,7 @@
             android:id="@+id/page_num_opt1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/page_x_of_n"
             android:textSize="18sp" />
 
@@ -22,7 +22,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/page_x"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:textSize="18sp" />
 
         <RadioButton
@@ -30,7 +30,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/x"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:textSize="18sp" />
     </RadioGroup>
 
@@ -42,7 +42,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="126dp"
         android:checked="false"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/set_as_default"
         android:textSize="18sp" />
 

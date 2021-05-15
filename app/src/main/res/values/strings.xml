@@ -554,6 +554,8 @@
     <string name="question" translatable="false">Question</string>
     <string name="answer" translatable="false">Answer</string>
     <string name="yallah_pdf_tool">Yallah PDF Tool</string>
+    <string name="tutorial_excel_to_pdf">Excel to PDF</string>
+    <string name="tutorial_1_convert_excel_files_into_pdf_in_just_one_click">Convert excel files into PDF in just one click</string>
 
 
     <!--  FAQs  -->

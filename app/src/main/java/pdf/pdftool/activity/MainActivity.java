@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity
     private void openWelcomeActivity() {
         if (!mSharedPreferences.getBoolean(IS_WELCOME_ACTIVITY_SHOWN, false)) {
             Intent intent = new Intent(MainActivity.this, WelcomeActivity.class);
-            mSharedPreferences.edit().putBoolean(IS_WELCOME_ACTIVITY_SHOWN, true).apply();
+           // mSharedPreferences.edit().putBoolean(IS_WELCOME_ACTIVITY_SHOWN, true).apply();
             startActivity(intent);
         }
     }

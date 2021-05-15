@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/remove_duplicate_info"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -31,7 +31,7 @@
             android:layout_marginHorizontal="24dp"
             android:maxWidth="30dp"
             android:text="@string/merge_file_select"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,7 +43,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/remove_duplicate"
             app:layout_constraintBottom_toTopOf="@id/recyclerView"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="24dp"
             android:background="@color/mb_green"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/view_pdf"
             android:visibility="invisible" />
 

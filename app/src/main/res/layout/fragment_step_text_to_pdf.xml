@@ -17,7 +17,7 @@
         android:layout_above="@id/tv_desc"
         android:layout_centerHorizontal="true"
         android:text="@string/welcome_text_to_pdf"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/welcome_text_to_pdf_message"
         android:textAlignment="center" />
 

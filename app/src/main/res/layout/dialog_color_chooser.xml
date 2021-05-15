@@ -14,7 +14,7 @@
         android:id="@+id/set_default"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:layout_weight="1"
         android:text="@string/set_as_default" />
 

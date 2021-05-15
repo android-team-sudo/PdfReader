@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="12dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:textSize="16sp"
             android:textStyle="bold" />
     </com.balysv.materialripple.MaterialRippleLayout>

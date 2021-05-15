@@ -55,7 +55,7 @@
             android:text="@string/no_pdf"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             app:layout_constraintEnd_toEndOf="@+id/emptyBackgroundImage"
             app:layout_constraintStart_toStartOf="@+id/emptyBackgroundImage"
             app:layout_constraintTop_toTopOf="@+id/emptyBackgroundImage" />
@@ -70,7 +70,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="45dp"
             android:padding="10dp"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:text="@string/get_started"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"

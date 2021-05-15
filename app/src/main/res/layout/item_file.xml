@@ -19,7 +19,7 @@
             android:id="@+id/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:layout_gravity="center" />
 
         <com.balysv.materialripple.MaterialRippleLayout
@@ -40,7 +40,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:padding="4dp"
-                    android:fontFamily="@font/sarabunregular"
+                    android:fontFamily="@font/font_calibri_regular"
                     android:text="@string/file_name_text"
                     android:textSize="18sp" />
 
@@ -62,7 +62,7 @@
                             android:maxLines="1"
                             android:padding="7dp"
                             android:paddingStart="0dp"
-                            android:fontFamily="@font/sarabunregular"
+                            android:fontFamily="@font/font_calibri_regular"
                             android:paddingEnd="0dp"
                             android:text="@string/file_size_text"
                             android:textSize="12sp" />
@@ -84,7 +84,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:maxLines="1"
-                        android:fontFamily="@font/sarabunregular"
+                        android:fontFamily="@font/font_calibri_regular"
                         android:padding="7dp"
                         android:paddingStart="0dp"
                         android:paddingEnd="3dp"
