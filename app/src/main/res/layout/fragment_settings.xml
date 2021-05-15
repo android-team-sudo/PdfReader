@@ -10,11 +10,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/_10sdp"
         android:gravity="center"
         android:text="@string/storage_location_info"
         android:fontFamily="@font/sarabunbold"
-        android:textSize="16sp"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/color_dark_black"
         android:textStyle="bold" />
 
     <TextView
@@ -37,11 +38,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/_10sdp"
         android:gravity="center"
         android:fontFamily="@font/sarabunbold"
         android:text="@string/settings_info"
-        android:textSize="16sp"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/color_dark_black"
         android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView

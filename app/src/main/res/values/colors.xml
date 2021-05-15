@@ -8,6 +8,7 @@
     <color name="colorGray">#607D8B</color>
     <color name="black">#000000</color>
     <color name="red">#FF0000</color>
+    <color name="color_text">#B76565</color>
     
     <color name="colorBackground_black">#0A0808</color>
 
@@ -15,6 +16,7 @@
     <color name="windowBackground_dark">#33343B</color>
 
     <color name="dot_inactive">#4DF57C00</color>
+    <color name="color_dark_black">#4F4F4F</color>
 
     <!-- DOTS COLOR -->
 

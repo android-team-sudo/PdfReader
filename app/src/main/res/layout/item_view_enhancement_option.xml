@@ -12,7 +12,7 @@
         app:cardBackgroundColor="@color/transparent"
         android:elevation="0dp"
         app:cardElevation="0dp"
-        android:layout_margin="4dp">
+        android:layout_margin="@dimen/_4sdp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,9 +22,9 @@
 
             <ImageView
                 android:id="@+id/option_image"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_margin="8dp"
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_margin="@dimen/_8sdp"
                 android:contentDescription="@string/app_name"
                 tools:srcCompat="@drawable/baseline_enhanced_encryption_24"
                 app:tint="?attr/iconTintOnCard" />
@@ -33,7 +33,7 @@
                 android:id="@+id/option_name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/sarabunregular"
+                android:fontFamily="@font/font_calibri_regular"
                 android:gravity="center_horizontal"
                 android:breakStrategy="simple"
                 android:lines="2"

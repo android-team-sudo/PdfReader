@@ -51,7 +51,7 @@ public class ImageEnhancementOptionsUtils {
                 context, R.drawable.ic_image_size, R.string.set_page_size_text));
 
         options.add(new EnhancementOptionsEntity(
-                context, R.drawable.ic_image_scale_type, R.string.image_scale_type));
+                context, R.drawable.ic_page_with_margin, R.string.image_scale_type));
 
         options.add(new EnhancementOptionsEntity(
                 context, R.drawable.ic_page_preview, R.string.preview_image_to_pdf));

@@ -52,7 +52,7 @@ public class SettingsOptions {
                                 Constants.DEFAULT_THEME))));
 
         options.add(new EnhancementOptionsEntity(context,
-                R.drawable.ic_page_margin, R.string.image_scale_type));
+                R.drawable.ic_page_with_margin, R.string.image_scale_type));
 
         options.add(new EnhancementOptionsEntity(context,
                 R.drawable.ic_set_password, R.string.change_master_pwd));

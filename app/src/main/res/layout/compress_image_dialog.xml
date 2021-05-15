@@ -3,19 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="@dimen/_24sdp">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/sarabunregular"
+        android:fontFamily="@font/font_calibri_regular"
         android:text="@string/quality_image"
-        android:textSize="20sp" />
+        android:textSize="@dimen/_20ssp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:orientation="horizontal">
 
         <EditText
@@ -23,16 +24,16 @@
             android:id="@+id/quality"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/sarabunregular"
+            android:fontFamily="@font/font_calibri_regular"
             android:hint="@string/compress_dialog_enter_prompt"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_20ssp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/compress_dialog_percentage"
-            android:fontFamily="@font/sarabunregular"
-            android:textSize="20sp" />
+            android:fontFamily="@font/font_calibri_regular"
+            android:textSize="@dimen/_20ssp" />
 
     </LinearLayout>
 
@@ -40,8 +41,8 @@
         android:id="@+id/cbSetDefault"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/sarabunregular"
-        android:layout_marginTop="20dp"
+        android:fontFamily="@font/font_calibri_regular"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="@string/set_as_default" />
 
 </LinearLayout>

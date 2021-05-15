@@ -3,26 +3,26 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_home_white_24dp"
+            android:icon="@drawable/menu_home"
             android:title="@string/home_page" />
         <item android:title="@string/create_new_pdfs">
             <menu>
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_camera"
-                        android:icon="@drawable/ic_menu_camera"
+                        android:icon="@drawable/nav_image_to_pdf"
                         android:title="@string/create_pdf" />
                     <item
                         android:id="@+id/nav_text_to_pdf"
-                        android:icon="@drawable/ic_text_format_black_24dp"
+                        android:icon="@drawable/nav_text_to_pdf"
                         android:title="@string/text_to_pdf" />
                     <item
                         android:id="@+id/nav_qrcode"
-                        android:icon="@drawable/ic_qrcode_24dp"
+                        android:icon="@drawable/nav_qr_barcodes"
                         android:title="@string/qr_barcode_pdf" />
                     <item
                         android:id="@+id/nav_excel_to_pdf"
-                        android:icon="@drawable/ic_excel"
+                        android:icon="@drawable/nav_excel_to_pdf"
                         android:title="@string/excel_to_pdf" />
                 </group>
             </menu>
@@ -48,27 +48,27 @@
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_add_password"
-                        android:icon="@drawable/ic_lock_black_24dp"
+                        android:icon="@drawable/nav_add_password"
                         android:title="@string/add_password" />
                     <item
                         android:id="@+id/nav_remove_password"
-                        android:icon="@drawable/ic_lock_open_black_24dp"
+                        android:icon="@drawable/nav_remove_password"
                         android:title="@string/remove_password" />
                     <item
                         android:id="@+id/nav_add_text"
-                        android:icon="@drawable/ic_text_format_black_24dp"
+                        android:icon="@drawable/nav_add_text"
                         android:title="@string/add_text" />
                     <item
                         android:id="@+id/nav_add_images"
-                        android:icon="@drawable/ic_add_black_24dp"
+                        android:icon="@drawable/nav_add_images"
                         android:title="@string/add_images" />
                     <item
                         android:id="@+id/nav_add_watermark"
-                        android:icon="@drawable/ic_branding_watermark_black_24dp"
+                        android:icon="@drawable/nav_add_watermark"
                         android:title="@string/add_watermark" />
                     <item
                         android:id="@+id/nav_rotate_pages"
-                        android:icon="@drawable/baseline_crop_rotate_24"
+                        android:icon="@drawable/nav_rotate_pages"
                         android:title="@string/rotate_pages" />
                 </group>
             </menu>
@@ -106,27 +106,27 @@
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_text_extract"
-                        android:icon="@drawable/ic_text_format_black_24dp"
+                        android:icon="@drawable/nav_extract_text"
                         android:title="@string/extract_text" />
                     <item
                         android:id="@+id/nav_remove_pages"
-                        android:icon="@drawable/ic_remove_circle_black_24dp"
+                        android:icon="@drawable/nav_remove_pages"
                         android:title="@string/remove_pages" />
                     <item
                         android:id="@+id/nav_rearrange_pages"
-                        android:icon="@drawable/ic_sort"
+                        android:icon="@drawable/nav_reorder_pages"
                         android:title="@string/reorder_pages" />
                     <item
                         android:id="@+id/nav_extract_images"
-                        android:icon="@drawable/ic_broken_image_black_24dp"
+                        android:icon="@drawable/nav_extract_images"
                         android:title="@string/extract_images" />
                     <item
                         android:id="@+id/nav_pdf_to_images"
-                        android:icon="@drawable/ic_image_black_24dp"
+                        android:icon="@drawable/nav_pdf_to_images"
                         android:title="@string/pdf_to_images" />
                     <item
                         android:id="@+id/nav_zip_to_pdf"
-                        android:icon="@drawable/ic_zip_to_pdf"
+                        android:icon="@drawable/nav_zip_to_pdf"
                         android:title="@string/zip_to_pdf" />
                 </group>
             </menu>
