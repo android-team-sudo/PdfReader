@@ -556,6 +556,16 @@
     <string name="yallah_pdf_tool">Yallah PDF Tool</string>
     <string name="tutorial_excel_to_pdf">Excel to PDF</string>
     <string name="tutorial_1_convert_excel_files_into_pdf_in_just_one_click">Convert excel files into PDF in just one click</string>
+    <string name="tutorial_3_qr_code_to_pdf">QR Code to PDF</string>
+    <string name="tutorial_3_convert_qr_codes_and_barcodes_to_pdf">Convert QR codes and barcodes to PDF.</string>
+    <string name="tutorial_4_text_to_pdf">Text to PDF</string>
+    <string name="tutorial_4_convert_your_text_file_into_a_desired_pdfs_with_ease">Convert your text file into a desired PDFs with ease.</string>
+    <string name="tutorial_5_images_to_pdf">Images to PDF</string>
+    <string name="tutorial_5_convert_all_possible_images_to_a_pdf_file">Convert all possible images to a PDF file.</string>
+    <string name="tutorial_6_remove_pages">Remove Pages</string>
+    <string name="tutorial_6_remove_the_unwanted_pages_that_you_do_not_need_anymore">Remove the unwanted pages that you do not need anymore.</string>
+    <string name="tutorial_7_create_a_pdf_file">Create a PDF File</string>
+    <string name="tutorial_7_easily_create_pdf_files_and_many_more">Easily create pdf files and many more.</string>
 
 
     <!--  FAQs  -->

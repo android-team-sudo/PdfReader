@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bg_tutorial_1">
+    android:background="@drawable/tutorial_2">
 
 
 
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:fontFamily="@font/font_calibri_bold"
         android:textColor="@color/mb_white"
         android:text="@string/tutorial_excel_to_pdf"
@@ -31,7 +31,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/font_calibri_regular"
         android:textColor="@color/mb_white"
-        android:textSize="@dimen/_12ssp"
+        android:textSize="@dimen/_14ssp"
         android:text="@string/tutorial_1_convert_excel_files_into_pdf_in_just_one_click"
         android:textAlignment="center" />
 
@@ -39,5 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_tutorial_2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_20sdp"
         android:layout_below="@id/tv_desc"/>
 </RelativeLayout>

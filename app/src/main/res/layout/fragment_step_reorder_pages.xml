@@ -2,34 +2,43 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mb_white">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/tutorial_2">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/tv_title"
-        android:src="@drawable/screenshot_seven" />
-
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/tv_desc"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/font_calibri_regular"
-        android:text="@string/welcome_reorder_pages"
-        android:textSize="18sp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:fontFamily="@font/font_calibri_bold"
+        android:textColor="@color/mb_white"
+        android:text="@string/tutorial_7_create_a_pdf_file"
+        android:textSize="@dimen/_22ssp"
         android:textStyle="bold" />
 
-    <TextView
+
+
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_desc"
-        android:layout_width="250dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tv_title"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/_20sdp"
         android:fontFamily="@font/font_calibri_regular"
-        android:text="@string/welcome_reorder_pages_message"
+        android:textColor="@color/mb_white"
+        android:textSize="@dimen/_14ssp"
+        android:text="@string/tutorial_7_easily_create_pdf_files_and_many_more"
         android:textAlignment="center" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg_tutorial_7"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tv_desc"/>
 
 </RelativeLayout>

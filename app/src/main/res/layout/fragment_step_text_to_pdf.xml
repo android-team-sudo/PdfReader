@@ -2,34 +2,43 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mb_white">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/tutorial_2">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/tv_title"
-        android:src="@drawable/screenshot_four" />
-
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/tv_desc"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/welcome_text_to_pdf"
-        android:fontFamily="@font/font_calibri_regular"
-        android:textSize="18sp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:fontFamily="@font/font_calibri_bold"
+        android:textColor="@color/mb_white"
+        android:text="@string/tutorial_4_text_to_pdf"
+        android:textSize="@dimen/_22ssp"
         android:textStyle="bold" />
 
-    <TextView
+
+
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_desc"
-        android:layout_width="250dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tv_title"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/_20sdp"
         android:fontFamily="@font/font_calibri_regular"
-        android:text="@string/welcome_text_to_pdf_message"
+        android:textColor="@color/mb_white"
+        android:textSize="@dimen/_14ssp"
+        android:text="@string/tutorial_4_convert_your_text_file_into_a_desired_pdfs_with_ease"
         android:textAlignment="center" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg_tutorial_4"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tv_desc"/>
 
 </RelativeLayout>

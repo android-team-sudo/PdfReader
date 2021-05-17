@@ -48,9 +48,9 @@ public class WelcomeActivity extends AppCompatActivity {
                 R.layout.fragment_step_text_to_pdf,
                 R.layout.fragment_step_qrcode_to_pdf,
                 R.layout.fragment_step_remove_pages,
-                R.layout.fragment_step_reorder_pages,
-                R.layout.fragment_step_extract_images};
+                R.layout.fragment_step_reorder_pages};
 
+        //R.layout.fragment_step_extract_images
         // adding bottom dots
         addBottomDots(0);
 
