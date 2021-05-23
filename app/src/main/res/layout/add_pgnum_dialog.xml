@@ -15,6 +15,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_calibri_regular"
             android:text="@string/page_x_of_n"
+            style="@style/RadioButton"
             android:textSize="18sp" />
 
         <RadioButton
@@ -22,6 +23,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/page_x"
+            style="@style/RadioButton"
             android:fontFamily="@font/font_calibri_regular"
             android:textSize="18sp" />
 
@@ -30,6 +32,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/x"
+            style="@style/RadioButton"
             android:fontFamily="@font/font_calibri_regular"
             android:textSize="18sp" />
     </RadioGroup>

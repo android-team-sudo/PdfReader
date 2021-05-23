@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PDF Advance Tool</string>
+    <string name="app_name">Yalla Advance Tool</string>
     <string name="title">Acciones PDF</string>
 
     <string name="file_name_text">Nombre del archivo</string>

@@ -16,11 +16,13 @@
             android:layout_width="wrap_content"
             android:fontFamily="@font/font_calibri_regular"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/maintain_aspect_ratio"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:fontFamily="@font/font_calibri_regular"
             android:text="@string/stretch_image"/>
 

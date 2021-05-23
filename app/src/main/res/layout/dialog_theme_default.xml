@@ -9,21 +9,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:paddingStart="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_4sdp"
         tools:ignore="MissingConstraints">
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/theme_black" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/theme_dark" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/theme_white" />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">PDF Advance Tool</string>
+    <string name="app_name">Yalla Advance Tool</string>
     <string name="title">PDF Actions</string>
 
     <string name="file_name_text">File Name</string>
@@ -14,13 +14,16 @@
     <string name="default_content_description">no description</string>
     <string name="prompt_input">Enter here</string>
 
-     <!--google and facebook ads ids-->
 
-    <string name="Admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+        <!--Admob_app_id -ca-app-pub-1369731474179615~8965316498
+        admob_unit_id - ca-app-pub-1369731474179615/5398085500
+        interstial_ad  -  ca-app-pub-1369731474179615/7599715197-->
 
-    <string name="admob_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="Admob_app_id" translatable="false">ca-app-pub-1369731474179615~8965316498</string>
 
-    <string name="interstial_ad" translatable="false">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <string name="admob_unit_id" translatable="false">ca-app-pub-1369731474179615/5398085500</string>
+
+    <string name="interstial_ad" translatable="false">ca-app-pub-1369731474179615/7599715197</string>
 
 
     <!--   Items  -->
@@ -553,7 +556,7 @@
     <string name="lbl_recently_used">Recently Used Features</string>
     <string name="question" translatable="false">Question</string>
     <string name="answer" translatable="false">Answer</string>
-    <string name="yallah_pdf_tool">Yallah PDF Tool</string>
+    <string name="yallah_pdf_tool">Yalla PDF Tool</string>
     <string name="tutorial_excel_to_pdf">Excel to PDF</string>
     <string name="tutorial_1_convert_excel_files_into_pdf_in_just_one_click">Convert excel files into PDF in just one click</string>
     <string name="tutorial_3_qr_code_to_pdf">QR Code to PDF</string>

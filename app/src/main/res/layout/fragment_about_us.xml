@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -16,7 +15,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:contentDescription="@string/default_content_description"
             android:src="@drawable/logo_1" />
 
@@ -58,6 +57,7 @@
                     android:fontFamily="@font/font_calibri_regular"
                     android:drawablePadding="15dp"
                     android:padding="8dp"
+                    android:gravity="center_vertical"
                     android:text="@string/version"
                     tools:targetApi="m"
                     app:drawableStartCompat="@drawable/ic_version_white_24dp"
@@ -78,6 +78,7 @@
                 android:layout_gravity="center_vertical"
                 android:drawablePadding="15dp"
                 android:padding="8dp"
+                android:gravity="center_vertical"
                 android:fontFamily="@font/font_calibri_regular"
                 android:text="@string/playstore"
                 tools:targetApi="m"

@@ -8,36 +8,45 @@
         android:id="@+id/radio_group_font_family"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_4sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingBottom="@dimen/_2sdp"
         android:orientation="vertical">
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/courier" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/helvetica" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/times_roman" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/symbol" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/zapfdingbats" />
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/RadioButton"
             android:text="@string/undefined" />
     </RadioGroup>
 

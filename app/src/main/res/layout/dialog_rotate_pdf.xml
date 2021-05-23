@@ -14,7 +14,9 @@
     <RadioGroup
         android:id="@+id/rotation_angle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_4sdp"
+        android:paddingEnd="@dimen/_4sdp">
 
         <RadioButton
             android:id="@+id/deg90"
@@ -22,6 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_calibri_regular"
+            style="@style/RadioButton"
             android:text="@string/degree_90"/>
 
         <RadioButton
@@ -29,6 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_calibri_regular"
+            style="@style/RadioButton"
             android:text="@string/degree_180"/>
 
         <RadioButton
@@ -36,6 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_calibri_regular"
+            style="@style/RadioButton"
             android:text="@string/degree_270"/>
     </RadioGroup>
 
