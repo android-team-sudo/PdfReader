@@ -2,10 +2,15 @@ package team.pdfreader.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.app.Activity;
+import android.content.Context;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import java.util.List;
 import java.util.Map;
@@ -18,9 +23,11 @@ public class RecentListAdapter extends RecyclerView.Adapter<RecentListAdapter.Re
     private List<String> mKeys;
     private List<Map<String, String>> mValues;
     private final View.OnClickListener mOnClickListener;
+    private final Activity context;
 
-    public RecentListAdapter(View.OnClickListener listener) {
+    public RecentListAdapter(Activity context, View.OnClickListener listener) {
         this.mOnClickListener = listener;
+        this.context=context;
     }
 
 
@@ -44,6 +51,20 @@ public class RecentListAdapter extends RecyclerView.Adapter<RecentListAdapter.Re
     @Override public void onBindViewHolder(
             @NonNull final RecentItemViewHolder recentItemViewHolder, final int i) {
 
+      /*  DisplayMetrics displayMetrics = new DisplayMetrics();
+        context.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        int width = displayMetrics.widthPixels;
+
+        double itemWidth = width / 4.33;
+
+        ViewGroup.LayoutParams layoutParams=recentItemViewHolder.linearLayout.getLayoutParams();
+        layoutParams.width=(int)itemWidth;
+        layoutParams.height=layoutParams.height;
+*/
+                /* val lp = holder.cardView.layoutParams
+        lp.height = lp.height
+        lp.width = itemWidth
+        itemView.container.layoutParams = lp*/
 
         recentItemViewHolder.name_.setText(recentItemViewHolder.itemView.getContext().getString(
                 Integer.parseInt(mValues.get(i).keySet().iterator().next())));
@@ -63,6 +84,8 @@ public class RecentListAdapter extends RecyclerView.Adapter<RecentListAdapter.Re
     class RecentItemViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.option_image_) ImageView icon_;
         @BindView(R.id.option_name_) TextView name_;
+        @BindView(R.id.linearLayout)
+        LinearLayout linearLayout;
 
 
         private RecentItemViewHolder(@NonNull final View itemView) {

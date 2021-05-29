@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        Bitmap icon = BitmapFactory.decodeResource(getResources(),
-                R.drawable.ic_hammenu); //Converting drawable into bitmap
+        Bitmap icon = BitmapFactory.decodeResource(getResources(), R.drawable.ic_hammenu); //Converting drawable into bitmap
         Bitmap newIcon = resizeBitmapImageFn(icon, 60); //resizing the bitmap
         Drawable d = new BitmapDrawable(getResources(), newIcon);
 

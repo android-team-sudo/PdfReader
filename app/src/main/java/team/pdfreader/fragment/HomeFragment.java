@@ -139,7 +139,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         extractText.setOnClickListener(this);
         addText.setOnClickListener(this);
 
-        mAdapter =  new RecentListAdapter(this);
+        mAdapter =  new RecentListAdapter(getActivity(),this);
         recentList.setAdapter(mAdapter);
 
         return rootview;

@@ -170,6 +170,7 @@ public class MergeFilesFragment extends Fragment implements MergeFilesAdapter.On
                 new TextWatcher() {
                     @Override
                     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
                     }
 
                     @Override

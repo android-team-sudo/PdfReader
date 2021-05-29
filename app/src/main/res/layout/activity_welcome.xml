@@ -54,7 +54,7 @@
         <Button
             android:id="@+id/btn_skip"
             style="@style/sectionHeader"
-            android:layout_width="@dimen/_40sdp"
+            android:layout_width="@dimen/_50sdp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"

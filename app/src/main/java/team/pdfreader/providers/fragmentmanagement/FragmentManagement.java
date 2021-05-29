@@ -239,7 +239,7 @@ public class FragmentManagement implements IFragmentManagement {
                 fragment = new ZipToPdfFragment();
                 break;
             case R.id.nav_rateus:
-                mFeedbackUtils.openWebPage("https://play.google.com/store/apps/details?id=com.advanced.pdfconverter");
+                //mFeedbackUtils.openWebPage("https://play.google.com/store/apps/details?id=com.advanced.pdfconverter");
                 break;
             case R.id.nav_rotate_pages:
                 fragment = new ViewFilesFragment();

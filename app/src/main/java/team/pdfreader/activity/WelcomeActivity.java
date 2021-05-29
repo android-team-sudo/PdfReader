@@ -7,6 +7,8 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.text.Html;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -94,6 +96,22 @@ public class WelcomeActivity extends AppCompatActivity {
         @Override
         public void onPageSelected(int position) {
             addBottomDots(position);
+
+
+            float value =0.0f;
+           /* if(position == mLayouts.length-1){
+
+                mBtnSkip.getLayoutParams().width = 200;
+            }else {
+                mBtnSkip.getLayoutParams().width = 100;
+            }*/
+
+            //Log.e("Value  ",String.valueOf(value));
+
+
+            //mBtnSkip.setWidth(Integer.getInteger(String.valueOf(value)));
+            mBtnSkip.setText(position == mLayouts.length - 1 ? "Let's Begin!" : "Skip");
+
         }
 
         @Override
@@ -104,6 +122,10 @@ public class WelcomeActivity extends AppCompatActivity {
         public void onPageScrollStateChanged(int arg0) {
         }
     };
+
+    public static float convertPixelsToDp(float px, Context context){
+        return px / ((float) context.getResources().getDisplayMetrics().densityDpi / DisplayMetrics.DENSITY_DEFAULT);
+    }
 
 
     /**
